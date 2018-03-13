@@ -19,9 +19,9 @@
 			У ЧЕКБОКСОВ НЕТ ТЕКСТА, поэтому мы пишем в свойство checked значения true или false
 			document.getElementById("education").checked = education;
 			*/
-			document.getElementById("name").innerText = name; 
-			document.getElementById("age").innerText = age;
-			document.getElementById("sex").innerText = sex;
+			$("#name").text(name)
+			$("#age").text(age)
+			$("#sex").text(sex)
 			document.getElementById("education").checked = education;
 			document.getElementById("mathematic").checked = mathematic;
 			document.getElementById("asu").checked = asu;

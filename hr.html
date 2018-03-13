@@ -14,14 +14,17 @@
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
+      
       <p>Имя: <span id="name"> </span> </p> 
 	  <p>Возраст: <span id="age"> </span> </p> 
-	  <p>Пол: <span id="sex"> </span> </p> 
-	  <label>Высшее образование</label> <input type="checkbox" id="education" disabled> <br> 
-	  <label>Знание математики</label> <input type="checkbox" id="mathematic" class="skills"> <br>
-	  <label>Знание АСУ ТП</label> <input type="checkbox" id="asu" class="skills"> <br>
-	  <label>Знание теории резания</label> <input type="checkbox" id="cutting" class="skills"> <br>
-	  <label>Знание программирования</label> <input type="checkbox" id="programming" class="skills"> <br>
+	  <p>Пол: <span id="sex"> </span> </p>
+	  <form>
+	  	<p> <input type="checkbox" id="education"> <label for="education">Высшее образование</label> </p>
+	  	<p> <input type="checkbox" id="mathematic"> <label for="mathematic">Знание математики</label> </p>
+	  	<p> <input type="checkbox" id="asu"> <label for="asu">Знание АСУ ТП</label> </p>
+	  	<p> <input type="checkbox" id="cutting"> <label for="cutting">Знание теории резания</label> </p>
+	  	<p> <input type="checkbox" id="programming"> <label for="programming">Знание программирования</label> </p>
+	  </form>
 
 	  <p id="startTest"> <b> Заполнить анкету </b> </p>
 	  <p id="check"> <b> Меня возьмут? </b> </p>
