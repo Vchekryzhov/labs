@@ -30,8 +30,8 @@
 		}
 		
 		document.getElementById("check").addEventListener("click",check) 
-		function check(){ // эта функция првоеряет подходит лт наш кандидат, в данном случае подходят кандидаты с возрастом старше 18 и высшим образованием
-			if ( parseInt(document.getElementById("age").innerText) > 18 && document.getElementById("education").checked ==true ){
+		function check(){ // эта функция првоеряет подходит лт наш кандидат, в данном случае подходят кандидаты со знанем АСУ ТП и высшим образованием
+			if ( document.getElementById("education").checked ==true && document.getElementById("education").checked ==true ){
 				alert("Вы приняты")
 			}else{
 				alert("Вы нам не подходите");
