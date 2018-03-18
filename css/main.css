@@ -12,3 +12,8 @@ form{
 	margin-top:5%;
 	color:black;
 }
+.stroke {
+    font: 1,5em Arial, sans-serif;
+    text-shadow: red 1px 1px 0, red -1px -1px 0,
+                 red -1px 1px 0, red 1px -1px 0;
+}
